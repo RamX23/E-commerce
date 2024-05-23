@@ -1,0 +1,56 @@
+
+.logmain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(250, 232, 250);
+  height: 88vh;
+
+}
+.login{
+    width: 30rem;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    background-color: white;
+}
+.form{
+    width: 20vw;
+    display: block;
+}
+.fields{
+    margin: 20px;
+    margin: 25px;
+}
+.fields input{
+    width:400px;
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    text-align: start;
+    padding: 0px 10px;
+    border: none;
+    outline: 1px solid gray;
+}
+
+.continue {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 0px 30px;
+    background-color: red;
+}
+.already{
+    display: flex;
+    align-items: start;
+    margin: 20px;
+    width: 100%;
+}
+.check{
+    display: flex;
+    margin: 20px 20px;
+    width: 30rem;
+}

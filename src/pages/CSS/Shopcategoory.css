@@ -1,0 +1,47 @@
+
+.catmain{
+  display: block;
+  margin: 30px auto;
+  width: 82%;
+}
+
+.topsection{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 52px;
+}
+.result{
+    display: flex;
+    gap: 4px;
+}
+.bold{
+    font-weight: 600;
+}
+.sort button{
+
+    padding: 10px 20px;
+ 
+    border-radius: 40px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.products{
+    /* margin: 20px 170px; */
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ row-gap: 80px;
+}
+.loadmore{
+    display: flex;
+    justify-content: center;
+    margin: 90px 0px;
+}
+.more{
+    width: 180px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: rgb(223, 213, 213);
+    outline: none;
+    cursor: pointer;
+    border: none;
+}

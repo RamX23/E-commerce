@@ -1,0 +1,39 @@
+.footer-main{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    align-items: center;
+}
+.footer{
+   width: 85%;
+}
+.foot{
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: center;
+    padding: 20px;
+}
+.foot p{
+    padding-top: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px;
+    font-weight: 400;
+}
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.copyright{
+    margin-top: 60px;
+    text-align: center;
+}

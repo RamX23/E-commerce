@@ -1,0 +1,24 @@
+.newcollection{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 1550px;
+}
+.head{
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    width: 4 0vw;
+}
+.head hr{
+    font-weight: 600;
+}
+.collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

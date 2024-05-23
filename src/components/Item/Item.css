@@ -1,0 +1,31 @@
+.item{
+    width: 350px;
+    margin: 30px 0px;
+}
+.item p{
+    margin: 6px 0px;
+}
+/* .item img{
+    width: 20vw;
+} */
+.item .price{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0px 5px;
+}
+.newprice{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.oldprice{
+    font-size: 18px;
+    text-decoration: line-through;
+    font-weight: 500;
+    color: #8c8c8c;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}

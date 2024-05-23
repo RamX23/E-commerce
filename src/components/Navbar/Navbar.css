@@ -1,0 +1,74 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+   padding: 16px;
+    align-items: center;
+
+}
+.logo{
+    font-size: 1.9rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+   cursor: pointer;
+}
+.logo img{
+    height: 8vh;
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 22px;
+}
+.log{
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+.singin button{
+    width: 90px;
+    height: 35px;
+    font-size: 1rem;
+    border-radius: 75px;
+    background-color: white;
+    color:gray;
+    cursor: pointer;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav ul li hr{
+   border-radius: 3px;
+    color: red;
+    width: 80%;
+    background-color: red;
+    height: 3px;
+    padding-top:2px;
+    cursor: pointer;
+}
+.cart{
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+}
+.nav ul li:hover .nav ul li hr{
+    color: red;
+    display: block;
+}
+.cartcount{
+   margin-top: -30px;
+   margin-left: -24px;
+   background-color: rgb(255, 0, 0);
+   border-radius: 50%;
+   width: 1.2rem;
+   height: 1.2rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
